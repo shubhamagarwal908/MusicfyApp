@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musicfy-Play Music</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify-Logo">Musicfy</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        
+        <div class="songList">
+            <h1>
+                Trending Songs
+            </h1>
+            <div class="songItemsContainer">
+                <div class="songItems">
+                    <img src="cover1.jpg" alt="1">
+                    <span class="songName">Let Me Love You</span>
+                    <span class="songlistPlay"><span class="timestamp">05:30 <i id="0" class="fas songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItems">
+                    <img src="cover1.jpg" alt="1">
+                    <span class="songName">Let Me Love You</span>
+                    <span class="songlistPlay"><span class="timestamp">06:30 <i id="1" class="fas songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItems">
+                    <img src="cover1.jpg" alt="1">
+                    <span class="songName">Let Me Love You</span>
+                    <span class="songlistPlay"><span class="timestamp">05:30 <i id="2" class="fas songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItems">
+                    <img src="cover1.jpg" alt="1">
+                    <span class="songName">Let Me Love You</span>
+                    <span class="songlistPlay"><span class="timestamp">05:30 <i id="3" class="fas songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItems">
+                    <img src="cover1.jpg" alt="1">
+                    <span class="songName">Let Me Love You</span>
+                    <span class="songlistPlay"><span class="timestamp">05:30 <i id="4" class="fas songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItems">
+                    <img src="cover1.jpg" alt="1">
+                    <span class="songName">Let Me Love You</span>
+                    <span class="songlistPlay"><span class="timestamp">05:30 <i id="5" class="fas songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItems">
+                    <img src="cover1.jpg" alt="1">
+                    <span class="songName">Let Me Love You</span>
+                    <span class="songlistPlay"><span class="timestamp">05:30 <i id="6" class="fas songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItems">
+                    <img src="cover1.jpg" alt="1">
+                    <span class="songName">Let Me Love You</span>
+                    <span class="songlistPlay"><span class="timestamp">05:30 <i id="7" class="fas songItemPlay fa-play-circle"></i></span></span>
+                </div>
+               
+            </div>
+           
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100" value="0">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fas fa-3x fa-backward" id="previous"></i>
+            <i class="fas fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="play.gif" width="50px" alt="" id="gif"><span id="masterSongName">Memories</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/f5067595c1.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
